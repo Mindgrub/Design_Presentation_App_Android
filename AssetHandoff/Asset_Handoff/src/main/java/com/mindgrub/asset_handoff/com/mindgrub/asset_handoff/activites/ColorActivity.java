@@ -1,17 +1,19 @@
-package com.mindgrub.asset_handoff;
+package com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.mindgrub.asset_handoff.R;
 
-public class StatesActivity extends Activity {
+
+public class ColorActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_states);
+        setContentView(R.layout.activity_color);
     }
 
 
@@ -19,7 +21,7 @@ public class StatesActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.states, menu);
+        getMenuInflater().inflate(R.menu.color, menu);
         return true;
     }
 

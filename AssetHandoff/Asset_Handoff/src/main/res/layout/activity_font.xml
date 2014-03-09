@@ -6,11 +6,174 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.mindgrub.asset_handoff.FontActivity">
+    tools:context="com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites.FontActivity">
 
     <TextView
-        android:text="Text/Fonts"
+        android:id="@+id/txt_cafeta"
+        android:text="Font CAFETA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_enigma"
+        android:text="Font Enigma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/txt_helvetica"
+        android:text="Font Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_cafeta"/>
+
+    <TextView
+        android:id="@+id/txt_default"
+        android:text="Font Default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt_enigma"/>
+
+    <LinearLayout
+        android:layout_below="@+id/txt_helvetica"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/simple_shadow"
+        android:orientation="vertical"
+        android:background="@color/White"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:text="Simple Shadow"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="0.01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/simple_shadow"
+        android:id="@+id/soft_shadow"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:text="Soft Shadow"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/soft_shadow"
+        android:id="@+id/soft_shadow_below"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:text="Soft Shadow (Below)"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="3"
+            android:shadowDy="-3"
+            android:shadowRadius="1.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/soft_shadow_below"
+        android:id="@+id/engraved_shadow"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/Grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:text="Engraved Shadow"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/White"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="0.6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/engraved_shadow"
+        android:id="@+id/glowing_text"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Yellow"
+            android:layout_width="wrap_content"
+            android:text="Glowing Text"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/Yellow"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/glowing_text"
+        android:id="@+id/ethereal_text"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:text="Ethereal Text"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/White"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/ethereal_text"
+        android:id="@+id/spooky_text"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Black"
+            android:layout_width="wrap_content"
+            android:text="Spooky Text"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:shadowColor="@color/Green"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2" />
+    </LinearLayout>
 
 </RelativeLayout>

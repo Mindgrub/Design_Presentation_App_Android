@@ -1,4 +1,4 @@
-package com.mindgrub.asset_handoff;
+package com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.mindgrub.asset_handoff.R;
 
 import java.util.ArrayList;
 

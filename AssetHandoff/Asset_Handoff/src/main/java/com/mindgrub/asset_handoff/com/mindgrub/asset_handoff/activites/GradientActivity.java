@@ -1,17 +1,19 @@
-package com.mindgrub.asset_handoff;
+package com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.mindgrub.asset_handoff.R;
 
-public class CustomLayoutActivity extends Activity {
+
+public class GradientActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_custom_layout);
+        setContentView(R.layout.activity_gradient);
     }
 
 
@@ -19,7 +21,7 @@ public class CustomLayoutActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.custom_layout, menu);
+        getMenuInflater().inflate(R.menu.gradient, menu);
         return true;
     }
 

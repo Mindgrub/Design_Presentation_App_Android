@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.mindgrub.asset_handoff.MainActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,31 +17,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.ColorActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.ColorActivity"
             android:label="@string/title_activity_color" >
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.FontActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.FontActivity"
             android:label="@string/title_activity_font" >
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.GradientActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.GradientActivity"
             android:label="@string/title_activity_gradient" >
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.CustomDrawingActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.CustomDrawingActivity"
             android:label="@string/title_activity_custom_drawing" >
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.StretchingActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.StretchingActivity"
             android:label="@string/title_activity_stretching" >
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.CustomLayoutActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.CustomLayoutActivity"
             android:label="@string/title_activity_custom_layout" >
         </activity>
         <activity
-            android:name="com.mindgrub.asset_handoff.StatesActivity"
+            android:name=".com.mindgrub.asset_handoff.activites.StatesActivity"
             android:label="@string/title_activity_states" >
         </activity>
     </application>

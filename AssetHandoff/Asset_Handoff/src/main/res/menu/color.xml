@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.mindgrub.asset_handoff.ColorActivity" >
+    tools:context="com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites.ColorActivity" >
     
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"

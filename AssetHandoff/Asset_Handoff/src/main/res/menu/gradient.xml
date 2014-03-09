@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.mindgrub.asset_handoff.GradientActivity" >
+    tools:context="com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites.GradientActivity" >
     
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"

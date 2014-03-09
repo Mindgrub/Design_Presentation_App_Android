@@ -1,17 +1,19 @@
-package com.mindgrub.asset_handoff;
+package com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.mindgrub.asset_handoff.R;
 
-public class FontActivity extends Activity {
+
+public class CustomDrawingActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_font);
+        setContentView(R.layout.activity_custom_drawing);
     }
 
 
@@ -19,7 +21,7 @@ public class FontActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.font, menu);
+        getMenuInflater().inflate(R.menu.custom_drawing, menu);
         return true;
     }
 
