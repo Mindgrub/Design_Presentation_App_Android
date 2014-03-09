@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mindgrub.asset_handoff" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mindgrub.asset_handoff.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.ColorActivity"
+            android:label="@string/title_activity_color" >
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.FontActivity"
+            android:label="@string/title_activity_font" >
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.GradientActivity"
+            android:label="@string/title_activity_gradient" >
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.CustomDrawingActivity"
+            android:label="@string/title_activity_custom_drawing" >
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.StretchingActivity"
+            android:label="@string/title_activity_stretching" >
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.CustomLayoutActivity"
+            android:label="@string/title_activity_custom_layout" >
+        </activity>
+        <activity
+            android:name="com.mindgrub.asset_handoff.StatesActivity"
+            android:label="@string/title_activity_states" >
+        </activity>
+    </application>
+
+</manifest>

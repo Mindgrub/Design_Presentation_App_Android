@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asset_Handoff</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_color">ColorActivity</string>
+    <string name="title_activity_font">FontActivity</string>
+    <string name="title_activity_gradient">Gradients</string>
+    <string name="title_activity_custom_drawing">Custom Drawing</string>
+    <string name="title_activity_stretching">Stretching</string>
+    <string name="title_activity_custom_layout">Custom Layout</string>
+    <string name="title_activity_states">States</string>
+
+</resources>
