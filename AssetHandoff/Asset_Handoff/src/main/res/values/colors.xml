@@ -7,4 +7,7 @@
     <color name="Green">#0F0</color>
     <color name="Yellow">#FFFF00</color>
     <color name="TransparentGrey">#7F000000</color>
+    <color name="CustomOrangeColorWithTransparency">#7FFFAA00</color>
+    <color name="CustomRedColor">#FF3333</color>
+    <color name="CustomGreenColor">#006600</color>
 </resources>
