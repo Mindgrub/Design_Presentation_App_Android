@@ -1,9 +1,15 @@
 package com.mindgrub.asset_handoff.com.mindgrub.asset_handoff.activites;
 
 import android.app.Activity;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.graphics.Bitmap;
 
 import com.mindgrub.asset_handoff.R;
 
@@ -14,6 +20,23 @@ public class CustomDrawingActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_drawing);
+
+        ImageView circle = (ImageView)findViewById(R.id.circle);
+
+        Bitmap bmp = Bitmap.createBitmap(100, 100, Bitmap.Config.RGB_565);
+
+        Paint myPaint = new Paint();
+        myPaint.setColor(Color.WHITE);
+
+        Canvas c = new Canvas(bmp);
+
+        c.drawRect(0, 0, 100, 100, myPaint);
+
+        myPaint.setColor(Color.RED);
+
+        c.drawCircle(50, 50, 50, myPaint);
+
+        circle.setBackgroundDrawable(new BitmapDrawable(bmp));
     }
 
 
