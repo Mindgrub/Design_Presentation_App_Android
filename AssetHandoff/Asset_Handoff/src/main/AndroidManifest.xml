@@ -44,6 +44,10 @@
             android:name=".com.mindgrub.asset_handoff.activites.StatesActivity"
             android:label="@string/title_activity_states" >
         </activity>
+        <activity
+                android:name=".com.mindgrub.asset_handoff.activites.StatesDetailsActivity"
+                android:label="@string/title_activity_states" >
+        </activity>
     </application>
 
 </manifest>
